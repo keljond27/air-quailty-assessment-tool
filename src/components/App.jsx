@@ -174,12 +174,11 @@ export default class App extends React.Component {
         </div>
         <span className="instructions">Instructions</span>
         <ul>
-          <li>Select a city from the city dropdowns</li>
+          <li>Select a city from each of the city dropdowns</li>
           <li>Click "Compare"</li>
           <li>Change "Available Parameter to Compare" as desired</li>
-          <li>
-            when you change a city, you must compare before you can change the
-            parameter
+          <li>NOTE: when you change a city, you must compare again before you can change the
+            parameters
           </li>
         </ul>
         <ResultGrid
